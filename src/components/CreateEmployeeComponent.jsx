@@ -68,7 +68,7 @@ class CreateEmployeeComponent extends Component {
 
     getTitle(){
         if(this.state.id === '_add'){
-            return <h3 className="text-center">Add Employee</h3>
+            return <h3 className="text-center"  >Add Employee</h3>
         }else{
             return <h3 className="text-center">Update Employee</h3>
         }
@@ -101,7 +101,7 @@ class CreateEmployeeComponent extends Component {
                                                 value={this.state.emailId} onChange={this.changeEmailHandler}/>
                                         </div>
 
-                                        <button className="btn btn-success" onClick={this.saveOrUpdateEmployee}>Save</button>
+                                        <button className="btn btn-success"  onClick={this.saveOrUpdateEmployee} style={{backgroundColor:"#1E90FF"}}>Save</button>
                                         <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{marginLeft: "10px"}}>Cancel</button>
                                     </form>
                                 </div>

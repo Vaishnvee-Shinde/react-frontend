@@ -41,7 +41,7 @@ class ListEmployeeComponent extends Component {
             <div>
                  <h2 className="text-center"style={{ marginTop:"-10rem"}}>Working Employees List</h2>
                  <div className = "row" style={{marginBottom:"4rem"}}>
-                    <button className="btn btn-primary" onClick={this.addEmployee}> Add Employee</button>
+                    <button className="btn btn-primary" onClick={this.addEmployee} style={{backgroundColor:"gray", marginTop:"0rem"}}> Add Employee</button>
                  </div>
                  <br></br>
                  <div className = "row" style={{marginetop:"19rem"}}>
